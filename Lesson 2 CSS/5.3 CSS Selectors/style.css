@@ -5,28 +5,6 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
-/*
-p{
-  color: red;
-}
-
-.note2{
-  color: black;
-}
-
-#demo-color-green{
-  color: green;
-}
-
-li[class="note4"]{
-  color: blue;
-}
-
-*{
-  color: black;
-}
-*/
-
 
 p{
   color: red;
@@ -40,10 +18,11 @@ p{
   color: green;
 }
 
-li[ value="4"]{
+li[value="4"]{
   color: blue;
 }
 
 *{
   text-align: center;
 }
+

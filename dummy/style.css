@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+
+    .products .products-container {
+        width: 100%;
+    }
+
+    .products .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .product-img:hover {
+        opacity: .5;
+        transition: .9s;
+    }
+
+    .card:hover .card-body {
+        top: 0;
+    }
+
+
+    .product-img {
+        border-radius: 20px;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border: none;
+    }
+
+    .card {
+        height: 400px;
+        width: 350px;
+        cursor: pointer;
+        padding: 0;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+
+
+    .card-body {
+        width: 100%;
+        height: 100%;
+        top: +100%;
+        right: 0;
+        position: absolute;
+        background-color: #bebebe69;
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+        color: #fff;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: .4s;
+    }
+
+
+    .card-title {
+        text-transform: uppercase;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .card-info {
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 60px 0;
+        font-weight: 200;
+    }
+
+
+
+
+
+/****/
+
+
+.container.carousel {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    width: 77%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.d-block {
+    border-radius: 50px;
+}
+
+.carousel {
+    width: 80%;
+    height: 50%;
+    object-fit: contain;
+}
+
+
+.carousel-container .slide .carousel-inner .carousel-item {
+    border-radius: 50px;
+}
+
+
+.navigator {
+    position: absolute;
+    bottom
+}
+
+
+
+.find-more:hover {
+    background: #b3b3b3;
+    color: #000000;
+}
+
+.find-more {
+    border: 1px solid #000000;
+    background: #000000;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}

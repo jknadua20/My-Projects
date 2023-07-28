@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+    <style>
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 100vh;
+    flex: 1;
+}
+
+
+.paragraph{
+    display: flex;
+    flex: 1;
+    background-color:rgb(31, 85, 31);
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 45%;
+    max-height: 70%;
+}
+
+
+@media(max-width: 1250px){
+    .parent{
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="parent" >
+        <div class="paragraph" id="x">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis. Vel turpis nunc eget lorem dolor sed viverra. Quam elementum pulvinar etiam non quam lacus. Ac turpis egestas sed tempus urna et.</div>
+        <div class="paragraph" id="x">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis. Vel turpis nunc eget lorem dolor sed viverra. Quam elementum pulvinar etiam non quam lacus. Ac turpis egestas sed tempus urna et.</div>
+        <div class="paragraph" id="x">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis. Vel turpis nunc eget lorem dolor sed viverra. Quam elementum pulvinar etiam non quam lacus. Ac turpis egestas sed tempus urna et.</div>
+    </div>
+</body>
+</html>
